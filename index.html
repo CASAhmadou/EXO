@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercice3</title>
+</head>
+<body>
+    <img src="../CSS/log.png" alt="">
+    <div id="centre">
+         <div id="container">
+        
+        <h1 id="motdepasse">MOT DE PASSE</h1> 
+        
+       
+        <form id="form" class="form">
+            <label>Longeur de Password</label>
+            <div class="chiffre">
+                <input type="number" min="15" max="20" id="nombre" value="15">
+            </div>
+            <label for="maj">Contient des Lettres Majuscules</label>
+            <input type="checkbox" id="maj">
+            
+            <label for="min">Contieny des Lettre Minuscules</label>
+            <input type="checkbox" id="min">
+            
+            <label for="num">Contient des nombres</label>
+            <input type="checkbox" id="num">
+        
+            <label for="car">Contient des Caracteres Speciaux</label>
+            <input type="checkbox" id="car">
+    
+            <input type="button" id="submit" class="btn" value="Generer Le Mot de Passe">
+        </form>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html> 
